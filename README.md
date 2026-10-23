@@ -134,9 +134,24 @@ files. Copy any outputs you need to retain before rerunning.
 ### Software
 
 Software author: Hongren Shen. Citation metadata for software version 1.0.0
-is provided in `CITATION.cff`. The software DOI will be added after the first
-Zenodo release. When available, cite the DOI of the exact software version
-used in your work.
+is provided in `CITATION.cff`. Cite the DOI of the exact software version
+used in your work:
+
+Shen, H. (2026). *Streamflow Alteration Index (SAI) calculation tools*
+(Version v1.0.0) [Computer software]. Zenodo.
+[https://doi.org/10.5281/zenodo.23602080](https://doi.org/10.5281/zenodo.23602080)
+
+### SAI paper
+
+For the scientific method and Ontario application, please also cite:
+
+Shen, H., Tolson, B. A., Craig, J. R., Metcalfe, R. A., Romero-Cuellar, J.,
+and Luce, J. (2026). *Network-Based Subbasin-Scale Mapping of Streamflow
+Alteration in Ontario, Canada*. Earth System Science Data Discussions
+[preprint]. [https://doi.org/10.5194/essd-2026-286](https://doi.org/10.5194/essd-2026-286)
+
+The revised manuscript has been accepted. The citation above identifies the
+available preprint and will be updated when the final article DOI is available.
 
 ### SAI dataset
 
@@ -156,8 +171,8 @@ Shen, H., Han, M., Tolson, B., & Metcalfe, R. A. (2024).
 *The Ontario Lake and River Routing Product Version 2 (OLRRP V2)* [Data set].
 Zenodo. https://doi.org/10.5281/zenodo.14225103
 
-The dataset DOIs identify the data products. The software archive will have
-its own DOI.
+The dataset DOIs identify the data products. Software version 1.0.0 is
+archived separately at [https://doi.org/10.5281/zenodo.23602080](https://doi.org/10.5281/zenodo.23602080).
 
 ## License
 
