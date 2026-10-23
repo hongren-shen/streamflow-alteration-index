@@ -293,7 +293,7 @@ def write_outputs(
 def run_sai_for_region(
     project_root: Path,
     region: str,
-    olrrp_version: str = "v2-0-1",
+    olrrp_version: str = "v2-0",
     export_crs: str = "EPSG:4269",
     signals_csv_name: str = "ontario_alteration_signals.csv",
 ) -> None:

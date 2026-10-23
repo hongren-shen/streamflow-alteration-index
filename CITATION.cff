@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the archived version used in your work."
+type: software
+title: "Streamflow Alteration Index (SAI) calculation tools"
+version: 1.0.0
+authors:
+  - family-names: Shen
+    given-names: Hongren
+    affiliation: University of Waterloo
+repository-code: "https://github.com/hongren-shen/streamflow-alteration-index"
+url: "https://github.com/hongren-shen/streamflow-alteration-index"
+license: MIT
+abstract: >-
+  Python tools for calculating the Streamflow Alteration Index (SAI) from
+  Ontario Lake and River Routing Product (OLRRP) networks and alteration
+  signal tables. The workflow calculates SAI_I and SAI_II for subbasins and
+  attaches the results to river reaches. A southeastern Ontario (SE) example
+  includes routing inputs, signal records, and reference outputs.
+keywords:
+  - Streamflow Alteration Index
+  - hydrology
+  - river networks
+  - Ontario
+  - OLRRP

@@ -25,7 +25,7 @@ def parse_args() -> argparse.Namespace:
         "--olrrp-version",
         type=str,
         default=default_olrrp_version,
-        help="OLRRP version string used in shapefile names, e.g., v2-0-1",
+        help="OLRRP filename version string (default: v2-0); use v2-0-1 for files with that suffix.",
     )
     parser.add_argument(
         "--export-crs",
@@ -37,7 +37,7 @@ def parse_args() -> argparse.Namespace:
         "--signals-csv-name",
         type=str,
         default=default_signals_csv_name,
-        help="Filename of the Ontario-wide alteration signals CSV in the data folder.",
+        help="Alteration signal CSV filename in the data folder; must include the selected region.",
     )
     return parser.parse_args()
 
@@ -48,7 +48,7 @@ def main() -> None:
 
     run_sai_for_region(
         project_root=project_root,
-    region=args.region.strip().upper(),
+        region=args.region.strip().upper(),
         olrrp_version=args.olrrp_version.strip(),
         export_crs=args.export_crs.strip(),
         signals_csv_name=args.signals_csv_name.strip(),
