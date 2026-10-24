@@ -133,13 +133,16 @@ files. Copy any outputs you need to retain before rerunning.
 
 ### Software
 
-Software author: Hongren Shen. Citation metadata for software version 1.0.0
-is provided in `CITATION.cff`. Cite the DOI of the exact software version
-used in your work:
+Please cite the archived software version used in your work. Citation metadata
+is provided in [CITATION.cff](CITATION.cff):
 
 Shen, H. (2026). *Streamflow Alteration Index (SAI) calculation tools*
 (Version v1.0.0) [Computer software]. Zenodo.
 [https://doi.org/10.5281/zenodo.23602080](https://doi.org/10.5281/zenodo.23602080)
+
+Source code and documentation are available on
+[GitHub](https://github.com/hongren-shen/streamflow-alteration-index). If you use changes
+not included in an archived release, also record the exact commit used.
 
 ### SAI paper
 
